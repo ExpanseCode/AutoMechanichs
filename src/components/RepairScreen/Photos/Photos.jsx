@@ -7,6 +7,7 @@ export default function Photos({ photos, setCheckPhotos, completedDoc }) {
   const handlePhotoDelete = index => {
     // setPhotos(prev => prev.filter((item, idx) => idx !== index));
   };
+
   return (
     <div className={css.wrapperDiag}>
       <ul className={css.photoSectionWrapper}>
